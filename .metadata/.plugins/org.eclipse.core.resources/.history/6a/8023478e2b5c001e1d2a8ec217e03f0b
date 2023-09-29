@@ -1,0 +1,14 @@
+server:
+  port: 8889
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+         uri: https://github.com/Rasurisandeep20/dnb-config-repo1.git
+         username: Rasurisandeep20
+         password: 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
+         clone-on-start: true
+         skip-ssl-validation: true
